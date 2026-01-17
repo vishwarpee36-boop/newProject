@@ -33,4 +33,8 @@ public class LoginPage {
 	@FindBy(id="submitButton")
 	private WebElement loginBtn;
 	
+	public void login() {
+		
+	}
+	
 }
