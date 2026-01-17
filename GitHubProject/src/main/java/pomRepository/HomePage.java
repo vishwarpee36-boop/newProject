@@ -18,6 +18,7 @@ public class HomePage {
 		return orglnk;
 	}
 	
+<<<<<<< HEAD
 	@FindBy(linkText="Opportunities")
 	private WebElement opportunitilnk;
 	public WebElement getOpportunitilnk() {
@@ -25,4 +26,10 @@ public class HomePage {
 	}
 	
 	
+=======
+@FindBy(linkText="ConatactLink")
+private WebElement Contactlink;
+
+
+>>>>>>> branch 'master' of https://github.com/meghaathreya99-lead/GitHubProject.git
 }
