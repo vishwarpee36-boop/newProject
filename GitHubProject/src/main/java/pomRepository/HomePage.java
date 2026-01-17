@@ -18,4 +18,10 @@ public class HomePage {
 		return orglnk;
 	}
 	
+	@FindBy(linkText="Opportunities")
+	private WebElement opportunitilnk;
+	public WebElement getOpportunitilnk() {
+		return opportunitilnk;
+	}
+	
 }
