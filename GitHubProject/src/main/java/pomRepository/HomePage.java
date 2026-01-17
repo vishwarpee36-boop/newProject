@@ -18,4 +18,8 @@ public class HomePage {
 		return orglnk;
 	}
 	
+@FindBy(linkText="ConatactLink")
+private WebElement Contactlink;
+
+
 }
