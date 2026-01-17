@@ -19,9 +19,10 @@ public class HomePage {
 	}
 	
 	@FindBy(linkText="Opportunities")
-	private WebElement opportunitilink;
+	private WebElement opportunitilnk;
 	public WebElement getOpportunitilnk() {
-		return opportunitilink;
+		return opportunitilnk;
 	}
+	
 	
 }
