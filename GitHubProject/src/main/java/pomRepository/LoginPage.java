@@ -12,6 +12,10 @@ public class LoginPage {
 		PageFactory.initElements(driver,this);
 	}
 
+	
+	@FindBy(linkText="Products")
+	private WebElement prodlink;
+	
 	public WebElement getUsernameEdit() {
 		return usernameEdit;
 	}
